@@ -9,11 +9,11 @@ public class OneOfEachStats1 {
 		int T = Integer.parseInt(args[0]);
 		boolean boy = true;
 		boolean girl = true;
-		int count = 0;
-		int num2 = 0;
-		int num3 = 0;
-		int num4 = 0;
-		int a = 0;
+		double count = 0.0;
+		double num2 = 0.0;
+		double num3 = 0.0;
+		double num4 = 0.0;
+		double a = 0.0;
 
 		for (int i = 1; i <= T; i++) {
 			while (boy || girl) {
@@ -37,7 +37,7 @@ public class OneOfEachStats1 {
 
 				System.out.println();
 				count = count + a;
-				a=0;
+				a=0.0;
 
 			boy = true;
 			girl = true;

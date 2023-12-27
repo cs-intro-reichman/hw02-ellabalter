@@ -3,7 +3,7 @@
  *  as long as they form a non-decreasing sequence.
  */
 public class inOrder {
-	public static void main (String[] args) {
+	public static void main(String[] args) {
 		int x = (int) ((10) * Math.random());
 		int i = x;
 		int b = x;
@@ -11,13 +11,15 @@ public class inOrder {
 		do {
 			b = i;
 			i = (int) (10 * Math.random());
-			if (i >= b){
+			if (i >= b) {
 				System.out.print(i + " ");
 			}
 		}
 		while (i >= x && i >= b);
+		{
 
 		}
-		}
+	}
+}
 
 

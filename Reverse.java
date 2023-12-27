@@ -8,8 +8,9 @@ public class Reverse {
 		int length = s.length();
 
 		for (int i = 1; i <= length; i++) {
-			System.out.println(s.charAt(length - i));
+			System.out.print(s.charAt(length - i));
 		}
+		System.out.println();
 			if (length % 2 == 1) {
 
 				System.out.println("The middle character is " +  s.charAt(length/2));
