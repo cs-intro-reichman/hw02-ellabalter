@@ -14,7 +14,7 @@ public class DamkaBoard {
 
 			for (int i = 1; i <= N; i++) 
 			{
-				if ( i <  N && b % mod 2 == 0){
+				if ( i <  N && b % 2 == 0){
 					System.out.print("* ");
 				}
 
