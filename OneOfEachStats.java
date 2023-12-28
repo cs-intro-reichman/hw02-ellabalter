@@ -49,7 +49,8 @@ public class OneOfEachStats {
 			girl = true;
 		}
 
-		int average = count / T;
+		double average = 0.0;
+		average = count / T;
 		System.out.println("Average: " + average + " children to get at least one of each gender.");
 		System.out.println("Number of families with 2 children: " + num2);
 		System.out.println("Number of families with 3 children: " + num3);
