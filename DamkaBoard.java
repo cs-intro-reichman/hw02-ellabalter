@@ -13,9 +13,15 @@ public class DamkaBoard {
 			}
 
 			for (int i = 1; i <= N; i++) {
-				System.out.print("* ");
+				if ( i <  N ){
+					System.out.print("* ");
 			}
-
+			
+				else { 
+					System.out.print("*")
+					
+				}
+			}
 			System.out.println();
 
 		}
