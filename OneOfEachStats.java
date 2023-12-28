@@ -17,7 +17,7 @@ public class OneOfEachStats {
 		boolean boy = true;
 		boolean girl = true;
 		double rnd;
-		int count = 0;
+		double count = 0.0;
 		int num2 = 0;
 		int num3 = 0;
 		int num4 = 0;
