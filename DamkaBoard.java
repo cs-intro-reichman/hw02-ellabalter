@@ -24,7 +24,7 @@ public class DamkaBoard {
 				
 				}
 			}
-			System.out.println();
+			System.out.println(" ");
 
 		}
 	}
